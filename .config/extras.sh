@@ -1,3 +1,3 @@
 #!/bin/bash
 
-yay -S ttc-iosevka otf-font-awesome ttf-font-awesome
+yay -S ttc-iosevka otf-font-awesome ttf-font-awesome awesome-terminal-fonts
