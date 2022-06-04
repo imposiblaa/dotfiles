@@ -12,7 +12,7 @@ font = iosevka 11
 foreground      = #f8f8f2
 foreground_bold = #f8f8f2
 cursor          = #f8f8f2
-background      = rgba(40, 42, 54, 0.8)
+background      = rgba(40, 42, 54, 0.90)
 
 # black
 color0  = #000000

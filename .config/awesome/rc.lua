@@ -392,9 +392,6 @@ for i = 1, 9 do
                         if tag then
                            tag:view_only()
                         end
-			local command = "set -Ux CURRENT_TAG_AW " .. i
-			naughty.notify({text=command})
-			awful.spawn.with_shell(command)
                   end,
                   {description = "view tag #"..i, group = "tag"}),
         -- Toggle tag display.
@@ -572,4 +569,4 @@ gears.wallpaper.maximized("/home/colinn/.Wallpapers/stargazing.jpg", nil)
 
 -- Autostart Stuff
 awful.spawn.with_shell("/home/colinn/.config/awesome/polybar.sh")
-awful.spawn.with_shell("set -Ux CURRENT_TAG_AW 1")
+awful.spawn.with_shell("picom")
